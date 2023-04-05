@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="21sp"
+        android:text="Simple Calculator App" />
+
+    <TextView
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="190dp"
+        android:id="@+id/txtdisplay"
+        android:textSize="20sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Display" />
+
+    <EditText
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="260dp"
+        android:id="@+id/edtfirstnumber"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="number"
+        android:hint="Enter First Number"
+        android:text="" />
+
+    <EditText
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="340dp"
+        android:id="@+id/edtsecondnumber"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="number"
+        android:hint="Enter Second Number"
+        android:text="" />
+
+    <Button
+       android:layout_centerHorizontal="true"
+        android:layout_marginTop="440dp"
+        android:id="@+id/btnadd"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:text="ADD" />
+
+
+    <Button
+        android:id="@+id/btnsubtract"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+       android:layout_centerHorizontal="true"
+        android:layout_marginTop="490dp"
+        android:text="Subtract"
+        android:textSize="10sp" />
+
+    <Button
+       android:layout_centerHorizontal="true"
+        android:layout_marginTop="540dp"
+        android:id="@+id/btndivide"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:text="Divide" />
+
+    <Button
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="590dp"
+        android:id="@+id/btnmultiply"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:textSize="10sp"
+        android:text="MUltiply" />
+
+</RelativeLayout>
